@@ -2,3 +2,8 @@
     font-family: minecraftia;
     src: url(https://dl.dropbox.com/s/qrro6u0lx00x66j/Minecraftia-Regular.ttf?);
 }
+
+@font-face {
+    font-family: minecraft;
+    src: url(MinecraftTen-VGORe.ttf);
+}
