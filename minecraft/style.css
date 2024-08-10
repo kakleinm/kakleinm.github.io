@@ -8,6 +8,10 @@
     src: url(MinecraftTen-VGORe.ttf);
 }
 
+html {
+    background-color: #383838;
+}
+
 h1 {
     font-family: minecraft;
     text-align: center;
@@ -28,6 +32,16 @@ h1 {
     background-repeat: no-repeat;
     margin-left: 5%;
     margin-top: -16.5%;
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 445px;
+        height: 90px;
+        background-size: contain;
+        margin-left: 3%;
+    }
 }
 
 .header {
@@ -41,5 +55,18 @@ h1 {
 a {
     text-decoration: none;
     font-family: minecraftia;
-    color: black;
+    color: white;
+}
+
+a:hover {
+    font-size: 110%;
+    transition: .3s;
+}
+
+a { font-size:100%; transition:.3s;}
+
+.main {
+    background-color: blue;
+    width: 100%;
+    height: 600px;
 }
