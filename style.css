@@ -63,7 +63,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     margin-top: 6%;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.993);
     border-style: ridge;
     border-width: 4px;
 }
