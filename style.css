@@ -50,6 +50,7 @@ p {
 a {
     font-family: ms ui gothic;
     color: white;
+    text-decoration: none;
 }
 
 li {
