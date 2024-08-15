@@ -12,8 +12,8 @@
     src: url(MinecraftTen-VGORe.ttf);
 }
 
-content {
-    width: 100%;
+body {
+    box-sizing: border-box;
 }
 
 html {
