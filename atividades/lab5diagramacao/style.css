@@ -1,0 +1,96 @@
+/*
+laranja: rgb(246,94,0);
+cinza-azulado: rgb(13,31,41);
+azul-escuro: rgb(1, 17, 23);
+*/
+
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing:border-box;
+}
+html {
+    margin:0;
+}
+
+.top mark {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(246,94,0);
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.top figure {
+    position: relative;
+    width: 450px;
+}
+
+.top article {
+    width: 250px;
+}
+
+.top figcaption {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: rgb(13,31,41);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.div {
+    width: 100%;
+    background: rgb(13,31,41);
+}
+
+.div ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+
+.div li {
+    padding: 10px 20px;
+}
+
+.div a {
+    text-decoration: none;
+    color: white;
+}
+
+.div li:hover {
+    background-color: rgb(246,94,0);
+}
+
+main div {
+    width: 300px;
+}
+
+main figure img {
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+}
+
+main figure figcaption {
+    padding: 15px;
+    position: absolute;
+    background-color: rgba(13, 31, 41, 0.284);
+    text-align: center;
+    color: white;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 55% 75%, 50% 100%, 45% 75%, 0% 75%);
+}
+
+main p {
+    font-size: 0.8em;
+    position: relative;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
