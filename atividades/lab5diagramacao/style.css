@@ -8,9 +8,6 @@ azul-escuro: rgb(1, 17, 23);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing:border-box;
 }
-html {
-    margin:0;
-}
 
 .top mark {
     background-color: rgba(255, 255, 255, 0);
@@ -20,15 +17,18 @@ html {
 .top {
     display: flex;
     flex-direction: row;
+    width: 100%;
+}
+
+.top article {
+    width: 250px;
+    margin-left: auto;
 }
 
 .top figure {
     position: relative;
     width: 450px;
-}
-
-.top article {
-    width: 250px;
+    margin-right: auto;
 }
 
 .top figcaption {
@@ -44,6 +44,7 @@ html {
 .div {
     width: 100%;
     background: rgb(13,31,41);
+    padding-left: 330px;
 }
 
 .div ul {
@@ -68,29 +69,78 @@ html {
 
 main div {
     width: 300px;
+    padding: 10px;
+    margin: auto;
 }
 
-main figure img {
+main figure {
     width: 100%;
     margin-left: 0;
     position: relative;
 }
 
-main figure figcaption {
-    padding: 15px;
+main button {
+    background-color: rgb(246,94,0);
+    color: white;
+}
+
+main figcaption {
+    padding: 5px 5px 15px;
     position: absolute;
-    background-color: rgba(13, 31, 41, 0.284);
+    background-color: rgba(0, 0, 0, 0.632);
     text-align: center;
     color: white;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 55% 75%, 50% 100%, 45% 75%, 0% 75%);
+    width: inherit;
+    margin-top: -33px;
+}
+
+main img {
+    width: inherit;
 }
 
 main p {
     font-size: 0.8em;
-    position: relative;
 }
 
 main {
     display: flex;
     flex-direction: row;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    color: white;
+    background-color: rgb(1, 17, 23);
+}
+
+footer div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+footer input {
+    background-color: rgba(40, 67, 77, 0.423);
+    color: white;
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: rgb(246,94,0);
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+    padding: 2px;
+}
+
+footer table {
+    background-color: rgba(22, 22, 96, 0.144);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
 }
