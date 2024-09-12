@@ -1,0 +1,100 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    margin: 0;
+    border: 0;
+}
+
+header {
+    background-image: url("aula10 1/iridium/iridium/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: auto;
+    text-transform: uppercase;
+    height: 300px;
+    color: white;
+    padding: 100px;
+}
+
+header h1 {
+    margin-bottom: 0;
+    font-size: 4.5em;
+}
+
+header p {
+    margin-top: 0;
+    margin-bottom: 5%;
+    font-size: 1em;
+    color: rgb(180, 180, 180);
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+
+.first-element {
+    border: 1px white solid;
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+}
+
+section {
+    margin: 15px;
+}
+
+main section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+
+main h3 {
+    font-size: 2.2em;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+article {
+    width: 70%;
+}
+
+article p {
+    margin-top: 0;
+}
+
+aside {
+    width: 30%;
+}
+
+.post {
+    
+}
+
+.post p {
+    margin-top: -50px;
+    margin-left: 75px;
+}
+
+.dia-post {
+    color: rgb(129, 129, 129);
+    font-size: 0.8em;
+}
+
+h3, h4 {
+    text-transform: uppercase;
+}
