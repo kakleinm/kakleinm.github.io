@@ -1,5 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -70,31 +72,115 @@ main h3 {
 }
 
 article {
+    text-align: justify;
     width: 70%;
+}
+
+article img {
+    width: inherit;
 }
 
 article p {
     margin-top: 0;
+    margin-right: 30px;
 }
 
 aside {
     width: 30%;
 }
 
-.post {
-    
+aside h4 {
+    margin-top: 10px;
+}
+
+.post div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .post p {
-    margin-top: -50px;
-    margin-left: 75px;
+    margin-left: 12px;
+    text-align: justify;
 }
 
 .dia-post {
     color: rgb(129, 129, 129);
     font-size: 0.8em;
+    margin-top: 15px;
 }
 
 h3, h4 {
     text-transform: uppercase;
+}
+
+.cinza {
+    background-color: rgb(234, 233, 233);
+    justify-content: center;
+    padding: 10px;
+    height: 370px;
+    display: flex;
+    margin: 0;
+}
+
+.box {
+    width: 300px;
+    margin: auto;
+    text-align: justify;
+}
+
+.box img {
+    width: inherit;
+}
+
+.box h4 {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+.box p {
+    margin-bottom: 20px;
+}
+
+.botao {
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(135, 135, 135);
+}
+
+.box-footer {
+    width: 350px;
+    margin: 30px;
+    margin-top: 70px;
+}
+
+.box-footer li {
+    margin: 15px;
+}
+
+.box-footer h4{
+    font-size: 1.2em;
+    margin-bottom: 34px;
 }
