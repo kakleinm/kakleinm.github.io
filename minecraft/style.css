@@ -1,6 +1,22 @@
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1537.cur), auto !important;} /* End https://www.cursors-4u.com */
+* {
+    margin: 0;
+    padding: 0;
+    cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1537.cur), auto !important;
+    color: white;
+    font-family: ms ui gothic;
+}
 
-/* Chrome, Edge, and Safari */
+html {
+    background-color: #383838;
+}
+
+h1 {
+    font-family: minecraft;
+}
+
+h3 {
+    font-family: minecraftia;
+}
 
 @font-face {
     font-family: minecraftia;
@@ -12,78 +28,82 @@
     src: url(MinecraftTen-VGORe.ttf);
 }
 
-content {
-    width: 100%;
-    display: flex;
-    position: relative;
-}
-
-html {
-    background-color: #383838;
-}
-
-h1 {
-    font-family: minecraft;
-    color: white;
-    font-size: 42px;
-}
-
-h3 {
-    color: white;
-    font-family: minecraftia;
-    margin-bottom: -2%;
-    font-size: 20px;
-}
-
-p {
-    color: white;
-    font-family: ms ui gothic;
-    font-size: 17.5px;
-}
-
-.navbar {
-    display: flex;
-    background-color: rgba(113, 130, 101, 0.605);
-    justify-content: center;
-    padding: 5px;
-    height: 20px;
-    font-family: minecraftia;
-}
-
-.header {
-    background-image: url(https://file.garden/Zlkzrqgh4hF11eMP/imgs%20minecraft/banner.png);
-    width: 100%;
-    height: 350px;
+header {
+    background-image: url("https://file.garden/Zlkzrqgh4hF11eMP/imgs%20minecraft/banner.png");
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    width: auto;
+    text-transform: uppercase;
+    height: 200px;
+    color: white;
+    padding: 100px;
 }
 
-a {
+header img {
+    position: relative;
+    margin-top: 50px;
+    width: inherit;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.386);
+    text-align: center;
+    padding: 7px;
+    text-transform: uppercase;
+}
+
+.nav img {
+    width: 20px;
+    position: relative;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.nav ul {
+    list-style: none;
+    margin-top: 7px;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav a {
     text-decoration: none;
     color: white;
+    font-family: minecraftia;
 }
 
-a:hover {
-    font-size: 110%;
-    transition: .3s;
+.nav a:hover {
+    img {
+        transform: scale(1.3);
+    }
 }
 
-a { font-size:100%; transition:.3s;}
-
-.main {
-    background-color: #383838;
+main {
     display: flex;
-    height: 600px;
+    flex-direction: row;
 }
 
 .one {
-    width: 60%;
-    height: 590px;
-    padding: 5px;
+    height: 520px;
+    padding: 10px;
     text-align: center;
     overflow: scroll;
     overflow-x: hidden;
     overflow-y: scroll;
+}
+
+.one h1 {
+    margin-bottom: 17px;
+    font-size: 2.5em;
+}
+
+.one p {
+    margin-bottom: 17px;
 }
 
 .one::-webkit-scrollbar {
@@ -98,16 +118,4 @@ a { font-size:100%; transition:.3s;}
     background-color: #e694a800;
     border-radius: 10px;
     border: 3px solid #ffffff00;
-}
-
-.two {
-    width: 40%;
-    height: 590px;
-    padding: 5px;
-    background-color: rgba(100, 122, 90, 0.14);
-}
-
-.two::a {
-    text-decoration: none;
-    color: white;
 }
