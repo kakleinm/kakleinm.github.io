@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1537.cur), auto !important;
+    color: white;
+    font-family: ms ui gothic;
+}
+
+html {
+    background-color: #383838;
+}
+
+h1 {
+    font-family: minecraft;
+    text-transform: uppercase;
+    text-shadow: -3px 0 #000000, 0 3px #000000, 3px 0 #000000, 0 -3px #000000, 0 0;
+    font-size: 4.5em;
+    margin-left: 520px;
+    margin-top: -100px;
+}
+
+h3 {
+    font-family: minecraftia;
+}
+
+@font-face {
+    font-family: minecraftia;
+    src: url(https://dl.dropbox.com/s/qrro6u0lx00x66j/Minecraftia-Regular.ttf?);
+}
+
+@font-face {
+    font-family: minecraft;
+    src: url(MinecraftTen-VGORe.ttf);
+}
+
+header {
+    background-image: url("https://file.garden/Zlkzrqgh4hF11eMP/imgs%20minecraft/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 200px;
+    color: white;
+    padding: 100px;
+}
+
+main {
+    background-image: url("https://file.garden/Zlkzrqgh4hF11eMP/imgs%20minecraft/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 200px;
+    color: white;
+    padding: 100px;
+}
+
+footer {
+    background-image: url("https://file.garden/Zlkzrqgh4hF11eMP/imgs%20minecraft/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 200px;
+    color: white;
+    padding: 100px;
+}
+
+p {
+    background-color: #38383888;
+    border-radius: 20px;
+    padding: 30px;
+    width: 350px;
+}
