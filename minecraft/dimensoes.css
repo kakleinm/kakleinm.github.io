@@ -91,20 +91,6 @@ header b {
     color: rgb(137, 222, 137);
 }
 
-footer {
-    padding: 20px;
-    text-align: center;
-}
-
-footer img {
-    margin: auto;
-    width: 250px;
-}
-
-footer video {
-    width: 250px;
-}
-
 @media screen and (min-width: 740px) and (max-width: 885px) {
     header figure {
         margin-left: auto;
