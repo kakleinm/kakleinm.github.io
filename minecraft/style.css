@@ -38,12 +38,11 @@ header {
     height: 200px;
     color: white;
     padding: 100px;
+    display: flex;
 }
 
 header img {
-    position: relative;
     margin-top: 50px;
-    width: inherit;
 }
 
 .nav {
@@ -54,7 +53,7 @@ header img {
 }
 
 .nav img {
-    width: 20px;
+    width: 15px;
     position: relative;
     margin-bottom: 8px;
     margin-right: 5px;
@@ -75,6 +74,7 @@ header img {
     text-decoration: none;
     color: white;
     font-family: minecraftia;
+    font-size: 1rem;
 }
 
 .nav a:hover {
@@ -95,6 +95,10 @@ main {
     overflow: scroll;
     overflow-x: hidden;
     overflow-y: scroll;
+}
+
+.two {
+    height: 540px;
 }
 
 .one h1 {
@@ -118,4 +122,35 @@ main {
     background-color: #e694a800;
     border-radius: 10px;
     border: 3px solid #ffffff00;
+}
+
+video {
+    width: auto;
+    height: 350px;
+}
+
+@media screen and (min-width: 740px) and (max-width: 885px) {
+    video {
+        width: auto;
+        height: 260px;
+    }
+
+    .one {
+        height: 450px;
+        padding: 10px;
+        text-align: center;
+        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 490px){
+    main {
+        flex-wrap: wrap;
+    }
+
+    video {
+        width: 398px;
+    }
 }
