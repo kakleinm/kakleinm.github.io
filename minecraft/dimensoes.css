@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1537.cur), auto !important;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: ms ui gothic;
 }
 
@@ -10,7 +10,7 @@ html {
     background-color: #383838;
 }
 
-h3 {
+h1, h3 {
     font-family: minecraftia;
 }
 
@@ -22,4 +22,110 @@ h3 {
 @font-face {
     font-family: minecraft;
     src: url(MinecraftTen-VGORe.ttf);
+}
+
+h2 {
+    font-family: minecraft;
+}
+
+section img {
+    width: 476px;
+    height: 219px;
+    image-resolution: inherit;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+section article {
+    background-color: rgba(242, 240, 240, 0.981);
+    padding: 10px;
+    height: 390px;
+    width: 476px;
+    margin: auto;
+}
+
+h2 {
+    margin-top: -340px;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: -3px 0 #000000, 0 3px #000000, 3px 0 #000000, 0 -3px #000000, 0 0;
+}
+
+section p {
+    color: black;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-top: 85px;
+    margin-bottom: -30px;
+    text-shadow: -3px 0 #000000, 0 3px #000000, 3px 0 #000000, 0 -3px #000000, 0 0;
+}
+
+figure img {
+    width: 536px;
+    height: 416px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+header figure {
+    margin-left: auto;
+}
+
+header div {
+    margin-right: auto;
+}
+
+header div p {
+    width: 400px;
+}
+
+header b {
+    color: rgb(137, 222, 137);
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    margin: auto;
+    width: 250px;
+}
+
+footer video {
+    width: 250px;
+}
+
+@media screen and (min-width: 740px) and (max-width: 885px) {
+    header figure {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 885px){
+    header, section {
+        flex-wrap: wrap;
+    }
+
+    header div {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: -90px;
+        margin-bottom: 20px;
+    }
+
+    video {
+        width: 398px;
+    }
 }
