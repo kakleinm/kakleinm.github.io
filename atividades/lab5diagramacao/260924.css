@@ -59,6 +59,7 @@ main section {
 .cinza ul {
     list-style: none;
     display: flex;
+    margin: auto 20px auto 20px;
 }
 
 .cinza li {
@@ -67,12 +68,12 @@ main section {
     border-radius: 100%;
     padding: 25px;
     color: white;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .cinza i {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .boxes {
@@ -137,15 +138,13 @@ main section {
 footer {
     color: white;
     background-color: rgb(70, 146, 123);
-    padding: 28px;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 30px;
 }
 
 footer ul {
     display: flex;
     list-style: none;
+    margin: 20px 0px 20px 0px;
 }
 
 footer li {
@@ -161,5 +160,5 @@ footer a {
 
 footer i {
     background-color: rgb(87, 182, 153);
-    padding: 20px;
+    padding: 12px;
 }
