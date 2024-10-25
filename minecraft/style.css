@@ -130,28 +130,185 @@ video {
     height: 350px;
 }
 
-@media screen and (min-width: 740px) and (max-width: 885px) {
-    video {
-        width: auto;
-        height: 260px;
+@media screen and (max-width: 320px) {
+    header {
+        width: 100%;
+        height: 150px;
+    }
+
+    header img {
+        max-width: 130%;
+        margin-top: 100px;
+        margin-left: -45px;
+    }
+
+    .nav {
+        width: 160%;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 160%;
     }
 
     .one {
-        height: 450px;
-        padding: 10px;
-        text-align: center;
-        overflow: scroll;
-        overflow-x: hidden;
-        overflow-y: scroll;
+        width: 160%;
     }
-}
 
-@media screen and (max-width: 490px){
-    main {
-        flex-wrap: wrap;
+    .two {
+        width: 160%;
     }
 
     video {
-        width: 398px;
+        width: 520px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 376px) {
+    header {
+        width: 110%;
+        height: 150px;
+    }
+
+    header img {
+        max-width: 120%;
+        margin-top: 100px;
+        margin-left: -40px;
+    }
+
+    .nav {
+        width: 160%;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 160%;
+    }
+
+    .one {
+        width: 160%;
+    }
+
+    .two {
+        width: 160%;
+    }
+
+    video {
+        width: 610px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 377px) and (max-width: 426px) {
+    header {
+        width: 105%;
+        height: 150px;
+    }
+
+    header img {
+        max-width: 120%;
+        margin-top: 100px;
+        margin-left: -40px;
+    }
+
+    .nav {
+        width: 150%;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 155%;
+    }
+
+    .one {
+        width: 155%;
+    }
+
+    .two {
+        width: 155%;
+    }
+
+    video {
+        width: 625px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 769px) {
+    header {
+        width: 73.2%;
+        height: 150px;
+    }
+
+    header img {
+        max-width: 100%;
+        margin-top: 100px;
+    }
+
+    .nav {
+        width: 97.5%;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .one {
+        width: 100%;
+    }
+
+    .two {
+        width: 100%;
+    }
+
+    video {
+        width: 745px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+    header img {
+        max-width: 100%;
+        margin-top: 120px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .one {
+        width: 60%;
+    }
+
+    .two {
+        width: 40%;
+    }
+
+    video {
+        width: 375px;
+        height: auto;
     }
 }
