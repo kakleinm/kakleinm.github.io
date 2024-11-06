@@ -121,7 +121,7 @@ main h3 {
 .card {
     width: 200px;
     height: 200px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.926);
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -150,10 +150,11 @@ main h3 {
     flex-direction: row;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
 }
 
 .tecnico nav {
-    border: 5px white solid;
+    border: 5px rgba(255, 255, 255, 0.325) solid;
     border-radius: 5px;
     margin: 20px;
     padding: 15px;
@@ -193,13 +194,16 @@ main h3 {
     transition: 0.3s;
 }
 
-.projetos a:hover {
+.projetos img:hover {
     transition: 0.3s;
-    letter-spacing: 1.25px;
+    transform: scale(1.1);
 }
 
 .projetos img {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    transition: 0.3s;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -286,8 +290,7 @@ main h3 {
     }
 
     .nav {
-        font-size: 60%;
-        padding: 0.5rem;
+        display: none;
     }
 
     .nav img {
@@ -316,10 +319,6 @@ main h3 {
 }
 
 @media screen and (max-width: 321px) {
-    .nav {
-        display: none;
-    }
-
     header h1 {
         margin-top: 10px;
     }
