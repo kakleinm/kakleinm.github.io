@@ -2,16 +2,21 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    box-sizing: border-box
 }
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 html {
-    background-color: #383838;
+    background-color: #202020;
 }
 
 .container {
     width: 950px;
     margin: auto;
     text-align: center;
+    justify-content: center;
 }
 
 a {
@@ -20,29 +25,37 @@ a {
 
 .nav {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    backdrop-filter: saturate(180%) blur(20px);
-    padding: 1rem;
+    padding: 0.3rem;
+    padding-bottom: 0.5rem;
     position: fixed;
+    background-color: #0000006e;
+    font-size: smaller;
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.nav a:hover {
+    color: rgb(223, 184, 228);
+    transition: .5s;
 }
 
 .nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
     flex-wrap: wrap;
     width: 100%;
+    align-items: center;
 }
 
 .nav li {
     padding-top: 5px;
+    margin: auto 35px;
 }
 
 .nav a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition: 0.3s;
 }
 
@@ -52,32 +65,54 @@ a {
 }
 
 header {
-    background-image: url("https://file.garden/Zlkzrqgh4hF11eMP/kakleinm/7672043.jpg");
+    background-image: url("https://file.garden/Zlkzrqgh4hF11eMP/kakleinm/back");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
+    justify-content: center;
+}
+
+header hr {
+    border: #adadad55 1px solid;
+    margin-bottom: 20px;
 }
 
 header h1 {
     font-size: 8rem;
     color: white;
-    text-shadow: -2px 0 #000000, 0 2px #000000, 2px 0 #000000, 0 -2px #000000, 0 0;
-    margin-top: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 6px;
+    letter-spacing: -7px;
 }
 
 header h4 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000, 0 0;
-    margin-top: -23px;
-    margin-left: 10px;
+    margin: auto auto 20px;
+    font-weight: lighter;
+}
+
+header a {
+    background-color: rgba(0, 0, 0, 0.57);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: large;
+    margin: auto 6px;
+}
+
+header i {
+    margin-right: 7px;
 }
 
 main section {
-    padding: 180px;
+    padding: 100px;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
+}
+
+#sobreMim, #tecnologias, #tecnico {
+    border-bottom: rgba(11, 11, 11, 0.89) 2px solid;
 }
 
 .sobreMim {
@@ -88,47 +123,44 @@ main section {
 }
 
 .sobreMim article {
-    width: 350px;
-    margin-left: auto;
-    margin-right: 15px;
+    width: 450px;
+    margin-left: 15px;
+    margin-right: auto;
+    text-align: left;
 }
 
 .sobreMim img {
-    margin-right: auto;
+    margin-left: auto;
     border-radius: 100%;
 }
 
 p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
 
 main h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
     color: white;
     text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000, 0 0;
 }
 
-.conhecimento {
+.cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .card {
-    width: 200px;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 0.926);
+    width: 105px;
+    height: 105px;
+    background-color: rgba(255, 255, 255, 0);
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 15px;
     margin-top: 30px;
-    margin-bottom: 30px;
     transition: 0.4s;
 }
 
@@ -142,43 +174,59 @@ main h3 {
 }
 
 .card img {
-    width: 150px;
+    width: 120px;
 }
 
 .tecnico {
     display: flex;
     flex-direction: row;
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: center;
 }
 
-.tecnico nav {
-    border: 5px rgba(255, 255, 255, 0.325) solid;
-    border-radius: 5px;
-    margin: 20px;
-    padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
+.tecnico ul {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+}
+
+.tecnico h4 {
+    margin: 10px auto;
 }
 
 .tecnico li {
+    position: relative;
     list-style: none;
+    margin: auto 15px;
 }
 
 .tecnico a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    transition: 0.3s;
+    color: white;
 }
 
-.tecnico a:hover {
-    transition: 0.3s;
-    letter-spacing: 1.25px;
+.drop {
+    width: 100%;
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 5px;
 }
 
-.tecnico h4 {
-    margin-bottom: 7px;
+.drop a {
+    transition: .3s;
+    border-radius: 5px;
+    margin-top: 4px;
+    padding: 3px;
+}
+
+.tecnico li:hover .drop {
+    height: 300px;
+}
+
+.drop a:hover {
+    background-color: #000000a6;
 }
 
 .projetos {
@@ -189,7 +237,6 @@ main h3 {
 
 .projetos a {
     color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
     transition: 0.3s;
 }
@@ -201,125 +248,12 @@ main h3 {
 
 .projetos img {
     margin-bottom: 10px;
-    max-width: 80%;
+    max-width: 90%;
     transition: 0.3s;
     border-radius: 20px;
 }
 
-@media screen and (max-width: 768px) {
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 95%;
-        justify-content: center;
-    }
-
-    .nav {
-        font-size: 95%;
-        padding: 0.8rem;
-    }
-    
-    .nav img {
-        width: 20px;
-        height: 20px;
-    }
-
-    header {
-        max-width: 100%;
-    }
-
-    .sobreMim p {
-        margin-bottom: 20px;
-    }
-
-    .sobreMim img {
-        margin: auto;
-    }
-
-    .card {
-        width: 150px;
-        height: 200px;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1000px) {
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-    }
-
-    .nav {
-        font-size: 95%;
-    }
-    
-    .nav img {
-        width: 20px;
-        height: 20px;
-    }
-
-    header {
-        max-width: 100%;
-    }
-
-    .sobreMim p {
-        margin-bottom: 20px;
-    }
-
-    .sobreMim img {
-        margin: auto;
-    }
-
-    .card {
-        width: 150px;
-        height: 200px;
-    }
-
-    main section {
-        padding-top: 180px;
-        padding-bottom: 180px;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    header h1 {
-        font-size: 5rem;
-        margin-bottom: 20px;
-        margin-top: 25px;
-    }
-
-    .nav {
-        display: none;
-    }
-
-    .nav img {
-        width: 15px;
-        height: 15px;
-    }
-
-    .nav ul {
-        justify-content: space-around;
-        flex-wrap: nowrap;
-    }
-
-    .container {
-        width: 90%;
-        justify-content: center;
-        max-width: 425px;
-    }
-
-    main section {
-        padding: 60px;
-    }
-
-    main h3 {
-        font-size: 2rem;
-    }
-}
-
-@media screen and (max-width: 321px) {
-    header h1 {
-        margin-top: 10px;
-    }
+footer {
+    border-top: #ffffff 2px solid;
+    padding: 20px;
 }
