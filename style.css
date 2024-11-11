@@ -111,10 +111,6 @@ main section {
     flex-wrap: wrap;
 }
 
-#sobreMim, #tecnologias, #tecnico {
-    border-bottom: rgba(11, 11, 11, 0.89) 2px solid;
-}
-
 .sobreMim {
     display: flex;
     flex-direction: row;
@@ -256,4 +252,374 @@ main h3 {
 footer {
     border-top: #ffffff 2px solid;
     padding: 20px;
+}
+
+@media (max-width: 320px) {
+    .container {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .nav {
+        display: none;
+    }
+    
+    header {
+        width: 100%;
+    }
+    
+    header h1 {
+        font-size: 5rem;
+    }
+
+    header h4 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    header a {
+        font-size: small;
+        padding: 3px;
+        margin: auto 12px;
+        font-weight: normal;
+    }
+
+    main section {
+        padding: 40px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .sobreMim {
+        font-size: smaller;
+    }
+
+    .sobreMim article {
+        width: 450px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .sobreMim img {
+        margin: auto auto 15px;
+    }
+
+    .card {
+        width: 105px;
+        height: 105px;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 5px;
+        border-radius: 15px;
+        margin-top: 15px;
+        transition: 0.4s;
+    }
+    
+    .card:hover {
+        transform: scale(1.1);
+    }
+    
+    .card img {
+        width: 105px;
+    }
+
+    .projetos img {
+        max-width: 100%;
+    }
+
+    #tecnico {
+        display: none;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .container {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .nav {
+        display: none;
+    }
+    
+    header {
+        width: 100%;
+    }
+    
+    header h1 {
+        font-size: 5rem;
+    }
+
+    header h4 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    header a {
+        font-size: small;
+        padding: 3px;
+        margin: auto 12px;
+        font-weight: normal;
+    }
+
+    main section {
+        padding: 40px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .sobreMim {
+        font-size: smaller;
+    }
+
+    .sobreMim article {
+        width: 450px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .sobreMim img {
+        margin: auto auto 15px;
+    }
+
+    .card {
+        width: 105px;
+        height: 105px;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 5px;
+        border-radius: 15px;
+        margin-top: 15px;
+        transition: 0.4s;
+    }
+    
+    .card:hover {
+        transform: scale(1.1);
+    }
+    
+    .card img {
+        width: 105px;
+    }
+
+    .projetos img {
+        max-width: 100%;
+    }
+
+    #tecnico {
+        display: none;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .container {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .nav {
+        display: none;
+    }
+    
+    header {
+        width: 100%;
+    }
+    
+    header h1 {
+        font-size: 5rem;
+    }
+
+    header h4 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    header a {
+        font-size: smaller;
+        font-weight: normal;
+    }
+
+    main section {
+        padding: 40px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .sobreMim article {
+        width: 450px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .sobreMim img {
+        margin: auto auto 15px;
+    }
+
+    .card {
+        width: 105px;
+        height: 105px;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 5px;
+        border-radius: 15px;
+        margin-top: 15px;
+        transition: 0.4s;
+    }
+    
+    .card:hover {
+        transform: scale(1.1);
+    }
+    
+    .card img {
+        width: 105px;
+    }
+
+    .projetos img {
+        max-width: 100%;
+    }
+
+    .tecnico {
+        font-size: small
+    }
+
+    .tecnico ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .tecnico li {
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .container {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .nav {
+        display: none;
+    }
+    
+    header {
+        width: 100%;
+    }
+    
+    header h1 {
+        font-size: 5rem;
+    }
+    
+    header a {
+        font-size: smaller;
+    }
+
+    main section {
+        padding: 40px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .sobreMim article {
+        width: 450px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .sobreMim img {
+        margin: auto auto 15px;
+    }
+
+    .card {
+        width: 105px;
+        height: 105px;
+        background-color: rgba(255, 255, 255, 0);
+        padding: 5px;
+        border-radius: 15px;
+        margin-top: 15px;
+        transition: 0.4s;
+    }
+    
+    .card:hover {
+        transform: scale(1.1);
+    }
+    
+    .card img {
+        width: 105px;
+    }
+
+    .projetos img {
+        max-width: 100%;
+    }
+
+    .tecnico {
+        font-size: small
+    }
+
+    .tecnico ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .tecnico li {
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width: 499px) {
+    .tecnico {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        justify-content: center;
+    }
+    
+    .tecnico ul {
+        display: flex;
+        flex-direction: row;
+        margin: 10px auto;
+    }
+
+    .tecnico li {
+        position: relative;
+        list-style: none;
+        margin: auto 15px 80px;
+    }
+}
+
+@media (min-width: 769px) {
+    .container {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .sobreMim {
+        display: flex;
+        flex-direction: row;
+        color: white;
+        flex-wrap: wrap;
+    }
+    
+    .sobreMim article {
+        width: 400px;
+        margin-left: 15px;
+        margin-right: auto;
+        text-align: left;
+    }
+    
+    .sobreMim img {
+        margin-left: auto;
+        border-radius: 100%;
+    }
+
+    main section {
+        padding: 40px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }
